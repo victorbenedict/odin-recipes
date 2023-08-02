@@ -1,0 +1,105 @@
+
+body {
+  height: 100vh;
+  background-color: rgb(66, 71, 52);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  
+  /* justify-content: space-evenly; */
+  
+}
+h1, h2 {
+  display: block;
+  margin: 0;
+  text-align: center;
+}
+h2{
+  font-weight: 600;
+  font-size: large;
+}
+
+header {
+  display: block;
+  color:blanchedalmond;
+  padding: 1.5rem;
+  background-color: rgb(78, 65, 48);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 1.9em;
+  color: blanchedalmond;
+
+}
+
+.recipe-name-container {
+  text-align: center;
+  line-height: 1.9;
+  margin: 0,auto;
+}
+
+.recipe-name-link {
+  text-decoration: none;
+  color: wheat;
+  font-size: large;
+  font-weight: bold;
+}
+
+.recipe-name-link:hover {
+  text-decoration: underline; /* Add underline when the link is hovered */
+}
+
+.image-container {
+  position: relative;
+  padding: 1rem;
+  width: 300px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.image-link {
+  display: block;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+.image-link.fist{
+  background-image: url('./images/fistfullofjam_real.png');
+}
+
+.image-link.honey{
+  background-image: url('./images/honey_nuggets_real.jpg');
+
+}.image-link.pierogi{
+  background-image: url('./images/pierogi_real.png');
+}
+
+@media  (max-width: 1000px){
+  main {
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start; 
+  }
+}
+.image-link:hover {
+  filter: brightness(1.2);
+}
+
+footer a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  color: wheat;
+
+}
+
+footer a:hover {
+  text-decoration: underline; /* Add underline when the link is hovered */
+}
