@@ -1,14 +1,16 @@
 
 body {
   height: 100vh;
-  background-color: rgb(66, 71, 52);
+  background-image: url('./images/stone-wall-texture-background_23-2147960268.avif');
+  backdrop-filter: blur(5px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #2D2424;
   margin: 0;
   display: flex;
   flex-direction: column;
-  
-  /* justify-content: space-evenly; */
-  
 }
+
 h1, h2 {
   display: block;
   margin: 0;
@@ -20,10 +22,22 @@ h2{
 }
 
 header {
+  background-image: url('./images/forest_0.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   display: block;
-  color:blanchedalmond;
+  color: white;
   padding: 1.5rem;
-  background-color: rgb(78, 65, 48);
+  background-color: #2D2424;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header p {
+  font-size: large;
+  width: 50%;
+  padding: 1rem;
 }
 
 main {
@@ -31,7 +45,7 @@ main {
   justify-content: center;
   flex-grow: 1;
   padding: 1.9em;
-  color: blanchedalmond;
+  color: #2D2424;
 
 }
 
@@ -43,7 +57,7 @@ main {
 
 .recipe-name-link {
   text-decoration: none;
-  color: wheat;
+  color: #2D2424;
   font-size: large;
   font-weight: bold;
 }
@@ -58,6 +72,7 @@ main {
   width: 300px;
   flex-shrink: 0;
   flex-grow: 0;
+
 }
 
 .image-link {
@@ -68,6 +83,8 @@ main {
   background-position: top left;
   background-repeat: no-repeat;
   transition: filter 0.3s ease;
+  box-shadow: 3px 0px 32px 6px rgba(0,0,0,0.15) inset;
+
 }
 .image-link.fist{
   background-image: url('./images/fistfullofjam_real.png');
@@ -91,13 +108,23 @@ main {
   filter: brightness(1.2);
 }
 
+article {
+  flex-grow: 1;
+  margin: auto;
+}
+
+footer {
+  padding: 1rem;
+  background: rgba(45, 36, 36, .1);
+}
+
 footer a{
   display: block;
   text-decoration: none;
   text-align: center;
+  font-size: larger;
   margin: auto;
-  color: wheat;
-
+  color: #2D2424;
 }
 
 footer a:hover {
