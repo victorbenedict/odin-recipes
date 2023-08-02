@@ -2,9 +2,9 @@
 body {
   height: 100vh;
   background-image: url('./images/stone-wall-texture-background_23-2147960268.avif');
-  backdrop-filter: blur(5px);
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* backdrop-filter: blur(1.5px); */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
   background-color: #2D2424;
   margin: 0;
   display: flex;
@@ -23,8 +23,7 @@ h2{
 
 header {
   background-image: url('./images/forest_0.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: auto;
   display: block;
   color: white;
   padding: 1.5rem;
@@ -46,7 +45,6 @@ main {
   flex-grow: 1;
   padding: 1.9em;
   color: #2D2424;
-
 }
 
 .recipe-name-container {
@@ -93,7 +91,9 @@ main {
 .image-link.honey{
   background-image: url('./images/honey_nuggets_real.jpg');
 
-}.image-link.pierogi{
+}
+
+.image-link.pierogi{
   background-image: url('./images/pierogi_real.png');
 }
 
