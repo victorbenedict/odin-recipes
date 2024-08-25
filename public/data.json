@@ -1,0 +1,22 @@
+[
+  {
+    "title": "No-Grill Pork Ribs Barbecue",
+    "page_link": "./pages/nogrill-pork-ribs-bbq.html",
+    "image_link": "https://example.com/image1.jpg"
+  },
+  {
+    "title": "Beef Chop Suey",
+    "page_link": "./pages/beef-chop-suey.html",
+    "image_link": "https://example.com/image2.jpg"
+  },
+  {
+    "title": "Mie Goreng",
+    "page_link": "./pages/mie-goreng.html",
+    "image_link": "https://example.com/image2.jpg"
+  },
+  {
+    "title": "Batangas Kaldereta",
+    "page_link": "./pages/batangas-kaldereta.html",
+    "image_link": "https://example.com/image2.jpg"
+  }
+]

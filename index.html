@@ -1,61 +1,30 @@
-<!-- Planned features 
-Add background, header and footer image 
-Add the cockpot icon/gif
-Improve home/back button 
-Improve color palette -->
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Don't Starve Recipe</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" type="image/x-icon" href="./images/Crock_Pot_Build.ico">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <ul id="recipes"></ul>
+    <script>
+      const recipes = document.getElementById('recipes');
 
-<body>
-	<header>
-		<h1>Crock Pot Recipes</h1>
-		<h2>from Don't Starve Together</h2>
-		<p>If you're a fan of the survival game Don't Starve Together, you'll love these real life recipes inspired by some of the game's most iconic crock pot recipes! While the game's world is filled with danger and challenges, these recipes are designed to be comforting and delicious, and they're perfect for real life survival.</p>
-	</header>
-
-	<main>
-		<section class="image-container">
-			<a href="./fist_full_of_jam.html" class="image-link fist"></a>
-			<div class="recipe-name-container">
-				<a href="./fist_full_of_jam.html" class="recipe-name-link">Fist Full of Jam</a>
-			</div>
-			<p>A tasty and nutritious option to replenish hunger and health in the game, making it a practical choice for survival. Its delightful blend of fresh fruits and sweet honey creates a satisfying and flavorful treat for players to enjoy while navigating the challenges of the game.</p>
-			
-		</section>
-		<section class="image-container">
-			<a href="./honey_nuggets.html" class="image-link honey"></a>
-			<div class="recipe-name-container">
-				<a href="./honey_nuggets.html" class="recipe-name-link">Honey Nuggets</a>
-			</div>
-			<p>This is a delicious and filling combination of cooked honey and small pieces of meat, making it a satisfying meal option in the game. Its sweet and savory taste provides a much-needed boost to hunger, making it a valuable choice for survival.</p>
-			
-		</section>
-
-		<section class="image-container">
-			<a href="./pierogi.html" class="image-link pierogi"></a>
-			<div class="recipe-name-container">
-				<a href="./pierogi.html" class="recipe-name-link">Pierogi</a>
-				
-			</div>
-			<p>A powerful crock pot food and a must-have food item in the game. 
-				Featuring delectable dough filled with a variety of savory ingredients like meat, fruits, or vegetables. It's easy to make, provides a large amount of hunger and health.
-			</p>
-		</section>
-	</main>
-
-	<footer>
-		<a href="https://www.theodinproject.com/lessons/foundations-recipes" target="_blank">The Odin Project</a>
-		<a href="https://github.com/victorbenedict/Project-Recipes" target="_blank">Source Code</a>
-	</footer>
-			
-</body>
+      fetch('./public/data.json')
+        .then((res) => res.json())
+        .then((data) => {
+          if (data) {
+            data.forEach((item) => {
+              const listItem = document.createElement('li');
+              listItem.innerHTML = `<a href=${item.page_link}>${item.title} </a>`;
+              recipes.appendChild(listItem);
+            });
+          }
+        })
+        .catch((error) =>
+          console.error('Error fetching the JSON file:', error)
+        );
+    </script>
+  </body>
 </html>
