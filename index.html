@@ -8,6 +8,7 @@
   </head>
   <body>
     <ul id="recipes"></ul>
+
     <script>
       const recipes = document.getElementById('recipes');
 
@@ -17,7 +18,7 @@
           if (data) {
             data.forEach((item) => {
               const listItem = document.createElement('li');
-              listItem.innerHTML = `<a href=${item.page_link}>${item.title} </a>`;
+              listItem.innerHTML = `<a href=${item.page_link}> <img src=${item.image_link} />${item.title} </a>`;
               recipes.appendChild(listItem);
             });
           }

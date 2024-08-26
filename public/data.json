@@ -2,21 +2,178 @@
   {
     "title": "No-Grill Pork Ribs Barbecue",
     "page_link": "./pages/nogrill-pork-ribs-bbq.html",
-    "image_link": "https://example.com/image1.jpg"
+    "image_link": "https://panlasangpinoy.com/wp-content/uploads/2024/08/Pork-Ribs-222x222.jpg",
+    "description": "No grill? No problem! This No-Grill Pork Ribs Barbecue recipe is here to save the day with mouth-watering flavor. Try it now and let us know how it turns out!",
+    "time": {
+      "prep": "30 minutes",
+      "cook": "30 minutes",
+      "total": "1 hour"
+    },
+    "ingredients": {
+      "main": [
+        "3 lbs. pork ribs sliced into serving pieces",
+        "2 cups water",
+        "2 tablespoons cooking oil"
+      ],
+      "Marinade ingredients": [
+        "3 tablespoons Worcestershire sauce",
+        "½ cup banana ketchup",
+        "2 teaspoons onion powder",
+        "1 1/2 teaspoons garlic powder",
+        "1 teaspoon liquid smoke (optional)",
+        "1/2 teaspoon ground black pepper"
+      ],
+      "Barbecue sauce ingredients": [
+        "1 cup banana ketchup",
+        "3/4 cup white vinegar",
+        "3/4 cup brown sugar",
+        "2 teaspoons smoked paprika",
+        "1/2 cup water"
+      ]
+    },
+    "instructions": [
+      "Arrange the pork ribs in a mixing bowl. Add the marinade ingredients and mix well. Marinate for at least 30 minutes.",
+      "Heat cooking oil in a pan. Fry the marinated pork ribs for 1½ minutes per side. Set aside.",
+      "Arrange all the fried ribs back in the pan. Pour in 2 cups of water and let it boil. Adjust the heat to a simmer, cover the pan, and continue cooking until the water evaporates completely. Remove the pork ribs from the pan and set them aside.",
+      "Add all the barbecue sauce ingredients to the pan. Turn on the heat and stir. Bring it to a simmer.",
+      "Add the pork ribs back to the pan. Toss until the ribs are completely coated with the barbecue sauce. Continue cooking for 2 minutes.",
+      "Transfer the ribs to a serving plate.",
+      "Serve and enjoy!"
+    ]
   },
   {
     "title": "Beef Chop Suey",
     "page_link": "./pages/beef-chop-suey.html",
-    "image_link": "https://example.com/image2.jpg"
+    "image_link": "https://panlasangpinoy.com/wp-content/uploads/2024/07/Beef-Chop-Suey-on-Chop-Sticks-Close-Up-222x222.jpg",
+    "description": "Stir fried beef with cabbage, carrot, and capsicum.",
+    "time": {
+      "prep": "15 minutes",
+      "cook": "15 minutes",
+      "total": "30 minutes"
+    },
+    "ingredients": {
+      "main": [
+        "1 lb. beef top sirloin sliced into thin pieces",
+        "5 cloves garlic minced",
+        "1 yellow onion sliced thinly",
+        "3 stems green onion cut into 2-inch length",
+        "½ head cabbage sliced into serving pieces",
+        "2 carrots julienne",
+        "1 red bell pepper sliced into thick strips",
+        "2 cups snap peas",
+        "1 tablespoon soy sauce",
+        "3 tablespoons cooking oil",
+        "½ cup beef stock",
+        "8 grams Maggi Magic Sarap"
+      ],
+      "Marinade ingredients": [
+        "2 tablespoons soy sauce",
+        "1 ½ tablespoons oyster sauce",
+        "¼ teaspoon baking soda",
+        "2 teaspoons cornstarch",
+        "¼ teaspoon ground black pepper",
+        "1 tablespoon cooking oil"
+      ]
+    },
+    "instructions": [
+      "Combine the sliced beef and all the marinade ingredients in a bowl. After that, mix everything well. Set aside for 12 minutes.",
+      "Meanwhile, start to partially cook the vegetables. Heat 2 tablespoons of oil in a wide pan. Stir fry the cabbage, snap peas, carrot, and bell pepper for 1 minute. Sprinkle some salt to flavor it and then pour ¼ cup of beef broth. Cover the pan and let the liquid boil. Continue steaming for 1 minute. Then remove the cover of the pan. Let the remaining liquid evaporate. Set the vegetables aside.",
+      "Heat the remaining oil on the same pan. Once the oil gets hot, stir-fry the marinated beef until the outside part turns light brown.",
+      "Add the minced garlic, white part of the green onion, and sliced onions. Continue to stir-fry until the onion softens.",
+      "Add the stir-fried vegetables. Then toss to distribute the ingredients evenly.",
+      "Pour 1 tablespoon soy sauce and remaining beef broth. Stir and continue cooking until the sauce thickens.",
+      "Season with Maggi Magic Sarap as needed.",
+      "Transfer to a serving plate. Share and enjoy!"
+    ]
   },
   {
     "title": "Mie Goreng",
     "page_link": "./pages/mie-goreng.html",
-    "image_link": "https://example.com/image2.jpg"
+    "image_link": "https://panlasangpinoy.com/wp-content/uploads/2024/05/mie-goreng-recipe-222x222.jpg",
+    "description": "Stir fried beef with cabbage, carrot, and capsicum.",
+    "time": {
+      "prep": "15 minutes",
+      "cook": "15 minutes",
+      "total": "30 minutes"
+    },
+    "ingredients": {
+      "main": [
+        "1 lb. beef top sirloin sliced into thin pieces",
+        "5 cloves garlic minced",
+        "1 yellow onion sliced thinly",
+        "3 stems green onion cut into 2-inch length",
+        "½ head cabbage sliced into serving pieces",
+        "2 carrots julienne",
+        "1 red bell pepper sliced into thick strips",
+        "2 cups snap peas",
+        "1 tablespoon soy sauce",
+        "3 tablespoons cooking oil",
+        "½ cup beef stock",
+        "8 grams Maggi Magic Sarap"
+      ],
+      "Marinade ingredients": [
+        "2 tablespoons soy sauce",
+        "1 ½ tablespoons oyster sauce",
+        "¼ teaspoon baking soda",
+        "2 teaspoons cornstarch",
+        "¼ teaspoon ground black pepper",
+        "1 tablespoon cooking oil"
+      ]
+    },
+    "instructions": [
+      "Combine the sliced beef and all the marinade ingredients in a bowl. After that, mix everything well. Set aside for 12 minutes.",
+      "Meanwhile, start to partially cook the vegetables. Heat 2 tablespoons of oil in a wide pan. Stir fry the cabbage, snap peas, carrot, and bell pepper for 1 minute. Sprinkle some salt to flavor it and then pour ¼ cup of beef broth. Cover the pan and let the liquid boil. Continue steaming for 1 minute. Then remove the cover of the pan. Let the remaining liquid evaporate. Set the vegetables aside.",
+      "Heat the remaining oil on the same pan. Once the oil gets hot, stir-fry the marinated beef until the outside part turns light brown.",
+      "Add the minced garlic, white part of the green onion, and sliced onions. Continue to stir-fry until the onion softens.",
+      "Add the stir-fried vegetables. Then toss to distribute the ingredients evenly.",
+      "Pour 1 tablespoon soy sauce and remaining beef broth. Stir and continue cooking until the sauce thickens.",
+      "Season with Maggi Magic Sarap as needed.",
+      "Transfer to a serving plate. Share and enjoy!"
+    ]
   },
   {
     "title": "Batangas Kaldereta",
     "page_link": "./pages/batangas-kaldereta.html",
-    "image_link": "https://example.com/image2.jpg"
+    "image_link": "https://panlasangpinoy.com/wp-content/uploads/2024/05/batangas-kaldereta-222x222.jpg",
+    "description": "Stir fried beef with cabbage, carrot, and capsicum.",
+    "time": {
+      "prep": "15 minutes",
+      "cook": "15 minutes",
+      "total": "30 minutes"
+    },
+    "ingredients": {
+      "main": [
+        "1 lb. beef top sirloin sliced into thin pieces",
+        "5 cloves garlic minced",
+        "1 yellow onion sliced thinly",
+        "3 stems green onion cut into 2-inch length",
+        "½ head cabbage sliced into serving pieces",
+        "2 carrots julienne",
+        "1 red bell pepper sliced into thick strips",
+        "2 cups snap peas",
+        "1 tablespoon soy sauce",
+        "3 tablespoons cooking oil",
+        "½ cup beef stock",
+        "8 grams Maggi Magic Sarap"
+      ],
+      "Marinade ingredients": [
+        "2 tablespoons soy sauce",
+        "1 ½ tablespoons oyster sauce",
+        "¼ teaspoon baking soda",
+        "2 teaspoons cornstarch",
+        "¼ teaspoon ground black pepper",
+        "1 tablespoon cooking oil"
+      ]
+    },
+    "instructions": [
+      "Combine the sliced beef and all the marinade ingredients in a bowl. After that, mix everything well. Set aside for 12 minutes.",
+      "Meanwhile, start to partially cook the vegetables. Heat 2 tablespoons of oil in a wide pan. Stir fry the cabbage, snap peas, carrot, and bell pepper for 1 minute. Sprinkle some salt to flavor it and then pour ¼ cup of beef broth. Cover the pan and let the liquid boil. Continue steaming for 1 minute. Then remove the cover of the pan. Let the remaining liquid evaporate. Set the vegetables aside.",
+      "Heat the remaining oil on the same pan. Once the oil gets hot, stir-fry the marinated beef until the outside part turns light brown.",
+      "Add the minced garlic, white part of the green onion, and sliced onions. Continue to stir-fry until the onion softens.",
+      "Add the stir-fried vegetables. Then toss to distribute the ingredients evenly.",
+      "Pour 1 tablespoon soy sauce and remaining beef broth. Stir and continue cooking until the sauce thickens.",
+      "Season with Maggi Magic Sarap as needed.",
+      "Transfer to a serving plate. Share and enjoy!"
+    ]
   }
 ]
