@@ -78,11 +78,15 @@ a:hover img {
 }
 
 .recipe .time {
-  font-weight: 700;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
-.recipe .time:not(:first-child) {
-  padding-left: 8px;
+.recipe .time > div > span:first-child {
+  font-weight: 700;
 }
 
 .recipe img {
