@@ -2,36 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      groupName="viewport"
-      content="width=device-width, initial-scale=1.0"
+    <meta groupName="viewport"/ content="width=device-width, initial-scale=1.0"
     />
-    <title id="recipe-title">Recipe</title>
+    <title id="recipeTitle">Recipe</title>
     <link rel="stylesheet" href="../styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="recipe">
       <div class="header">
-        <h2 id="recipe-groupName"></h2>
-        <div id="recipe-description"></div>
         <div>
-          <span class="time">Prep: </span>
-          <span id="recipe-prep"></span>
-          <span class="time">Cook: </span>
-          <span id="recipe-cook"></span>
-          <span class="time">Total: </span>
-          <span id="recipe-total"></span>
+          <h2 id="recipeHeaderName"></h2>
+          <div class="description" id="recipeDescription"></div>
+          <div>
+            <span class="time">Prep: </span>
+            <span id="recipePrep"></span>
+            <span class="time">Cook: </span>
+            <span id="recipeCook"></span>
+            <span class="time">Total: </span>
+            <span id="recipeTotal"></span>
+          </div>
         </div>
         <div>
-          <img id="recipe-image" />
+          <img id="recipeImage" />
         </div>
       </div>
-      <div id="recipe-main">
-        <div id="recipe-ingredients">
+      <div id="recipeMain">
+        <div id="recipeIngredients">
           <h3>Ingredients</h3>
         </div>
-        <div id="recipe-instructions">
+        <div>
           <h3>Instructions</h3>
+          <ol id="recipeInstructions"></ol>
         </div>
       </div>
     </div>
@@ -39,26 +44,39 @@
       const params = new URLSearchParams(window.location.search);
       const recipeName = params.get('name');
 
-      const render = (recipe) => {
-        document.getElementById('recipe-title').textContent = recipe.title;
-        document.getElementById('recipe-groupName').textContent = recipe.title;
-        document.getElementById('recipe-description').textContent =
-          recipe.description;
-        document.getElementById('recipe-prep').textContent = recipe.time.prep;
-        document.getElementById('recipe-cook').textContent = recipe.time.cook;
-        document.getElementById('recipe-total').textContent = recipe.time.total;
-        document.getElementById('recipe-image').src = recipe.image_link;
+      const render = (recipeData) => {
+        recipeTitle.textContent = recipeData.title;
+        recipeHeaderName.textContent = recipeData.title;
+        recipeDescription.textContent = recipeData.description;
+        recipePrep.textContent = recipeData.time.prep;
+        recipeCook.textContent = recipeData.time.cook;
+        recipeTotal.textContent = recipeData.time.total;
+        recipeImage.src = recipeData.image_link;
 
-        const ingredients = document.getElementById('recipe-ingredients');
-        for (const ingrendientGroup in recipe.ingredients) {
-          const group = document.createElement('div');
-          if (ingrendientGroup != 'main') {
+        for (const ingredientType in recipeData.ingredients) {
+          const groupDiv = document.createElement('div');
+          if (ingredientType != 'main') {
             const groupName = document.createElement('h4');
-            groupName.textContent = ingrendientGroup;
-            group.appendChild(groupName);
+            groupName.textContent = ingredientType;
+            groupDiv.appendChild(groupName);
           }
-          ingredients.appendChild(group);
+
+          const ingredientList = document.createElement('ul');
+          recipeData.ingredients[ingredientType].forEach((item) => {
+            const ingredientItem = document.createElement('li');
+            ingredientItem.textContent = item;
+            ingredientList.appendChild(ingredientItem);
+          });
+
+          groupDiv.appendChild(ingredientList);
+          recipeIngredients.appendChild(groupDiv);
         }
+
+        recipeData.instructions.forEach((item) => {
+          const instructionsItem = document.createElement('li');
+          instructionsItem.textContent = item;
+          recipeInstructions.appendChild(instructionsItem);
+        });
       };
 
       fetch('../public/data.json')
